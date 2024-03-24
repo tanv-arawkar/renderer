@@ -1,0 +1,9 @@
+syntax = "proto3";
+package html;
+
+option go_package = "./htmlpb";
+
+message Data {
+	string FileName=1;
+	string FileData=2;
+}
